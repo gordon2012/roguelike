@@ -1,0 +1,64 @@
+body
+{
+	font-family: Tahoma, sans-serif;
+	margin: 0;
+}
+
+
+.ContactView
+{
+	/*background-color: yellow;*/
+}
+.ContactView-title
+{
+	font-size: 24px;
+	padding: 0 24px;
+}
+.ContactView-list
+{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	border-top: 4px solid #aaa;
+}
+
+
+.ContactItem
+{
+	/*border: 1px solid red;*/
+	/*background-color: red;*/
+	/*margin: 8px;*/
+	margin: 8px 0;
+	border-bottom: 2px solid #666;
+}
+.ContactItem-name
+{
+	/*background-color: green;*/
+	font-size: 16px;
+	margin: 0;
+}
+.ContactItem-email
+{
+	/*background-color: yellow;*/
+	font-style: italic;
+	margin-left: 8px;
+}
+.ContactItem-description
+{
+	/*background-color: red;*/
+	margin-left: 8px;
+	padding: 8px 0;
+}
+
+
+
+.ContactForm
+{
+	/*display: block;*/
+	background-color: yellow;
+}
+.ContactForm > input,
+.ContactForm > textarea
+{
+	display: block;
+}
