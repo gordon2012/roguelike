@@ -1,0 +1,29 @@
+div
+{
+	/*background-color: yellow;*/
+	/*margin: 0;*/
+	/*padding: 0;*/
+}
+
+.Tile
+{
+	width: 16px;
+	height: 16px;
+	border: 1px solid #666;
+	display: inline-block;
+}
+
+.Tile-air
+{
+	background-color: #ccc;
+}
+.Tile-wall
+{
+	background-color: #000;
+}
+
+
+.Level-row
+{
+	height: 16px;
+}

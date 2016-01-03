@@ -89,7 +89,7 @@ var ContactView = React.createClass
 
 		return (
 			React.createElement('div', {className: 'ContactView'},
-				React.createElement('h1', {className: 'ContactView-title'}, "Contacts"),
+				React.createElement('h1', {className: 'ContactView-title'}, 'Contacts'),
 				React.createElement('ul', {className: 'ContactView-list'}, contactListElements),
 				React.createElement(ContactForm, {contact: this.props.newContact})
 			)
