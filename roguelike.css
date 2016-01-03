@@ -21,7 +21,10 @@ div
 {
 	background-color: #000;
 }
-
+.Tile-player
+{
+	background-color: blue;
+}
 
 .Level-row
 {
